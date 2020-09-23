@@ -1,6 +1,6 @@
 # Rubber-Ducky
 
-Speicherort für meine RubberDucky Payloads
+My custome RubberDucky Payloads
 
 ## Trust in Tech Cologne
 [Payload](https://github.com/HanseSecure/Rubber-Ducky/tree/master/awareness/windows10/changeWallpaper
